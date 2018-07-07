@@ -1,0 +1,190 @@
+/*CSS FACEBOOOK*/
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.content-header {
+    background: #3a5795;
+    color: white;
+    padding: 10px 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-header form {
+    float: right;
+}
+
+.content-header label {
+    font-size: 12px;
+    padding-bottom: 2px;
+    border-bottom: 1px soloid black;
+}
+
+.content-header label, .content-header input {
+    display: block;
+}
+
+.content-header input[type="checkbox"] {
+    display: inline-block;
+}
+
+.group-from {
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    font-size: 10px;
+
+    
+}
+#akn{
+    margin-top: 7px;
+    padding-top: 5px;
+}
+.group-from a {
+    color: #9daccb;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.content-header input[type="submit"] {
+    background-color: #5972a8;
+    color: white;
+    font-weight: bold;
+    padding: 4px;
+    margin-top: 15px;
+    border: 1px solid black;
+    font-size: : 12px;
+    
+}
+
+
+
+/*--------- Content Middle ----------*/
+.content-middle {
+    background-color: #edf0f5;
+}
+
+.content-middle  .middle-left
+{
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+.content-middle   .middle-right{
+    float: left;
+    width: 35%;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+}
+   
+
+
+
+h3{
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.middle-right p:nth-child(2){
+    color: grey;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.middle-right input{
+    border-radius: 5px ;
+    border: 1px solid grey;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.middle-right .inline{
+    float: left;
+    width: 48%;
+    margin-right:4%;
+    box-sizing: border-box;
+}
+
+.middle-right input.inline-last{
+    margin-right: 0%;
+    box-sizing: border-box;
+}
+
+#birthday, #info{
+    color: grey;
+    font-size: 12px;
+}
+
+
+.middle-right p:last-child a ,#info a {
+    text-decoration: none;
+    color: #5972a8;
+}
+
+.middle-right p:last-child a:hover,#info a:hover {
+    text-decoration: underline;
+}
+
+input[type=radio]{
+    display: inline-block;
+    width:30px;
+    margin-top: 15px;
+}
+
+.middle-right input[type=submit]{
+    background-color:green;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.middle-right form{
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+.middle-right p:last-child{
+    color: grey;
+    margin-bottom: 50px;
+}
+
+::-webkit-input-placeholder {font-size: 15px; }
+::-moz-placeholder { font-size: 15px; } /* firefox 19+ */
+
+.content-footer a{
+    text-decoration: none;
+    color: #5972a8;
+}
+
+
+
+/*----end----*/
